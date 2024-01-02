@@ -17,6 +17,10 @@ The greatest increase in profits (date and difference in the amounts) over the e
 
 The greatest decrease in losses (date and difference in the amounts) over the entire period.
 
+## Completed Console Display Screenshot
+
+![](Assets/ConsoleDisplay.png)
+
 
 ## How I Approached this Project
 
