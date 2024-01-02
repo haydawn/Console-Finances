@@ -105,3 +105,11 @@ for (let i = 1; i < totalMonths; i++) {
 }
 let sumChanges = changes.reduce((sum, change) => sum + change, 0);
 let averageChange = sumChanges / (totalMonths - 1);
+
+// Greatest increase and decrease
+let greatestIncrease = Math.max(...changes);
+let greatestDecrease = Math.min(...changes);
+
+// Corresponding dates for increase and decrease
+let increaseIndex = changes.indexOf(greatestIncrease) + 1;
+let decreaseIndex = changes.indexOf(greatestDecrease) + 1;
