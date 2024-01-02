@@ -113,3 +113,9 @@ let greatestDecrease = Math.min(...changes);
 // Corresponding dates for increase and decrease
 let increaseIndex = changes.indexOf(greatestIncrease) + 1;
 let decreaseIndex = changes.indexOf(greatestDecrease) + 1;
+
+// Financial analysis display
+console.log("Financial Analysis");
+console.log("-------------------");
+console.log("Total Months:");
+console.log("Total: £");
