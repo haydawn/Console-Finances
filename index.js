@@ -119,4 +119,4 @@ console.log("Financial Analysis");
 console.log("-------------------");
 console.log("Total Months:", totalMonths);
 console.log("Total: £", total);
-console.log("Average Change: £", averageChange);
+console.log("Average Change: £", averageChange.toFixed(2));
