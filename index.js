@@ -120,3 +120,5 @@ console.log("-------------------");
 console.log("Total Months:", totalMonths);
 console.log("Total: £", total);
 console.log("Average Change: £", averageChange.toFixed(2));
+console.log(`Greatest Increase in Profits/Losses: ${finances[increaseIndex][0]} (£${greatestIncrease})`);
+console.log(`Greatest Decrease in Profits/Losses: ${finances[decreaseIndex][0]} (£${greatestDecrease})`);
