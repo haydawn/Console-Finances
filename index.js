@@ -105,21 +105,3 @@ for (let i = 1; i < totalMonths; i++) {
 }
 let sumChanges = changes.reduce((sum, change) => sum + change, 0);
 let averageChange = sumChanges / (totalMonths - 1);
-
-// Greatest increase and decrease
-let greatestIncrease = Math.max(...changes);
-let greatestDecrease = Math.min(...changes);
-
-// Corresponding dates for increase and decrease
-let increaseIndex = changes.indexOf(greatestIncrease) + 1;
-let decreaseIndex = changes.indexOf(greatestDecrease) + 1;
-
-// Financial analysis display
-console.log("Financial Analysis");
-console.log("-------------------");
-console.log("Total Months:", totalMonths);
-console.log("Total: £", total);
-console.log("Average Change: £", averageChange.toFixed(2));
-console.log(`Greatest Increase in Profits/Losses: ${finances[increaseIndex][0]} (£${greatestIncrease})`);
-console.log(`Greatest Decrease in Profits/Losses: ${finances[decreaseIndex][0]} (£${greatestDecrease})`);
-
